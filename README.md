@@ -28,11 +28,11 @@ An **improved portfolio implementation** of an undergraduate smart parking contr
 ## Project structure
 
 ```text
-rtl/SmartVehicleParkingSystem.v       Improved RTL
- tb/tb_SmartVehicleParkingSystem.v     Self-checking testbench
- original/centralized_fsm/            Preserved first implementation and waveform
- original/modular/                    Preserved alternative implementation
- docs/DESIGN_NOTES.md                 Design choices and limitations
+ SmartVehicleParkingSystem.v       Improved RTL
+ tb_SmartVehicleParkingSystem.v     Self-checking testbench
+ centralized_fsm/            Preserved first implementation and waveform
+ modular/                    Preserved alternative implementation
+ DESIGN_NOTES.md                 Design choices and limitations
  simulation/                          Output directory for generated VCD
 ```
 
